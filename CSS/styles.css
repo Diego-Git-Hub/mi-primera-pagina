@@ -1,0 +1,451 @@
+
+
+body{background-color: aliceblue ;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25rem;
+
+
+
+max-width: 70%;
+}
+
+section,aside,footer{text-align: center;}
+.Nav{position:fixed;
+  top: 0;
+  z-index: 100;
+ 
+}
+
+.Nav__li{ 
+
+list-style:  none;
+display: inline-flex;
+padding: 0.75rem;
+margin-left: 1.875rem;
+}
+.Nav__inicio,.Nav__consejos,.Nav__alimentacion,.Nav__salud{ text-decoration: none; color: slateblue;}
+.Nav__inicio:hover,.Nav__consejos:hover,.Nav__alimentacion:hover,.Nav__salud:hover{color: #B965EC; }
+.Nav__ul
+
+{background-color: #4EDBE2; 
+margin: 0%;
+position: fixed;
+width: 100%;
+}
+  .Nav__input
+  
+  {border: 0.125rem solid grey;
+  position: absolute ;
+left: 31.25rem;
+top:0.5rem ;
+outline: none;
+display: block;
+border-radius: 5rem;
+width: 12.5rem;
+text-align: center;
+
+
+}
+  
+.Nav__icon-search:active{background-color: slateblue
+  ;
+ border-radius: 40%;
+
+
+
+
+
+}
+.Nav__icon-search{position: absolute;
+left: 44.375rem;
+top: 0.6875rem;
+border-style: none;
+background-color: #4EDBE2 ;
+
+}
+
+.material-symbols-outlined{
+
+  position: absolute;
+  top: 1.375rem;
+  left: 38.75rem;
+  }
+  .Nav__icon-logo{position: absolute;
+  top: 0.75rem;
+  left:46rem ;
+  color: saddlebrown;
+
+}
+
+.Nav__icon-logo2{position: absolute;
+width: 50px;
+}
+.Nav__icon-inicio{position: absolute;
+  top: 0.6875rem;
+  left: 3.75rem;
+  color: aliceblue;
+  }
+  .Nav__icon-salud{position: absolute;
+  color:aliceblue;
+  left: 25.75rem;
+  top:0.75rem ;
+  }
+  .Nav__icon-instagram{position: absolute;
+  font-size: 1.875rem;
+  left: 78.125rem;
+  top: 0.3125rem;
+  border-style: none;
+  background-color: #4EDBE2;  
+  }
+  .Nav__icon-alimentacion{position: absolute;
+    left: 17.1875rem;
+    top: 0.75rem;
+    color: aliceblue;
+    }
+    .Nav__icon-facebook{color: #3b5998;
+      position: absolute;
+    left: 76rem;
+    border-style: none;
+    top: 0.4375rem;
+    background-color: #4EDBE2;
+    font-size: 1.5625rem;
+    
+    }
+    .Nav__icon-twitter{
+      color: #00acee;
+      position: absolute;
+    left: 71.625rem;
+    border-style: none;
+    top: 0.4375rem;
+    background-color: #4EDBE2;
+    font-size: 1.5625rem;
+    }
+    .Nav__icon-youtube{ color: red;
+      position: absolute;
+    left: 73.625rem;
+    border-style: none;
+    top: 0.4375rem;
+    background-color: #4EDBE2;
+    font-size: 1.5625rem;}
+    
+   
+.content{text-align: center;
+  margin-left: 1.25rem;
+  color: aliceblue;
+  max-width: 62.5rem;}
+
+
+
+
+ 
+.introduccion{margin-top: 80px;
+  background-color: #A6F0F6;
+display: flex;
+justify-content: center;
+padding: 9.375rem 0rem 0rem 0rem;
+border-radius:6.25rem ;
+position: relative;
+display: flex;
+
+}
+.introduccion__subtitulo{font-size: 2.5rem;
+text-align: center;
+position: relative;
+left: 21.25rem;
+bottom: 9.375rem;
+color: #B965EC;
+
+}
+
+
+.texto{
+position: relative;
+  font-size: 1.5625rem;
+  top: 3.125rem;
+  left: -7.5rem;
+}
+
+.higiene{max-width: 70%;}
+
+.higiene__subtitulo{font-size: 2.1875rem;
+color:#B965EC;
+}
+
+.resaltado{color: slateblue;
+font-size: 2.5rem;
+}
+
+.perro-bañandose{width: 43.75rem;
+  height: 31.25rem;
+  border-radius: 4.375rem;
+  box-shadow: 0.625rem 0.625rem 0.625rem slateblue;
+  margin: 0.9375rem 0rem 0.9375rem 0rem;
+}
+.perro-cepillandose{width: 43.75rem;
+  height: 31.25rem;
+  border-radius: 4.375rem;
+  box-shadow: 0.625rem 0.625rem 0.625rem slateblue;
+  margin: 0.9375rem 0rem 0.9375rem 0rem;
+}
+
+.perro-uñas{width: 43.75rem;
+  height: 31.25rem;
+  border-radius: 4.375rem;
+  box-shadow: 0.625rem 0.625rem 0.625rem slateblue;
+  margin: 0.9375rem 0rem 0.9375rem 0rem;
+}
+
+.perro-oidos{width: 43.75rem;
+  height: 31.25rem;
+  border-radius: 4.375rem;
+  box-shadow: 0.625rem 0.625rem 0.625rem slateblue;
+  margin: 0.9375rem 0rem 0.9375rem 0rem;
+  
+}
+
+.perro-higiene{width: 43.75rem;
+  height: 31.25rem;
+  border-radius: 4.375rem;
+  box-shadow: 0.625rem 0.625rem 0.625rem slateblue;
+margin: 0.9375rem 0rem 0.9375rem 0rem;
+}
+
+
+.aside__Dog{
+  position: absolute;
+  max-width: 18.75rem;
+  background-color: #A6F0F6;
+border-radius: 50px;
+margin: 3rem 0rem 0rem 58.125rem;
+top: 3.125rem;;
+
+}
+.aside__Dog>h2{
+
+  color: #B965EC;
+}
+.aside__video-container__baño{position: absolute;
+top:50.375rem;
+left:50rem ;
+
+width: 28.125rem;
+height: 18.75rem;
+border: 0.125rem solid #B965EC;
+
+}
+
+.aside__video-container__cepillado{
+
+  position: absolute;
+  top:90.75rem;
+  left:50rem ;
+  
+  width: 28.125rem;
+  height: 18.75rem;
+  border: 0.125rem solid #B965EC;
+  
+
+}
+
+.aside__video-container__uñas{position: absolute;
+  top:130.375rem;
+  left:50rem ;
+  
+  width: 28.125rem;
+  height: 18.75rem;
+  border: 0.125rem solid #B965EC;
+  }
+
+  .aside__video-container__orejas{position: absolute;
+    top:170.125rem;
+    left:50rem ;
+    
+    width: 28.125rem;
+    height: 18.75rem;
+    border: 0.125rem solid #B965EC;
+    }
+    .aside__video-container__higiene{position: absolute;
+      top:210.25rem;
+      left:50rem ;
+      
+      width: 28.125rem;
+      height: 18.75rem;
+      border: 0.125rem solid #B965EC;
+      }
+
+      .aside__instagram{ position: absolute;
+        left: 60.5rem;
+        top: 74rem;
+        width: 9.5rem;
+          height:9.5rem;
+        border: 0.0625rem solid aqua;
+        box-shadow: 0.3125rem 0.3125rem 0.9375rem #B965EC , -0.3125rem -0.3125rem 0.9375rem #B965EC;
+        text-align: center;
+        text-shadow: 0.0625rem 0.0625rem 0.3125rem #B965EC  ;
+        font-size: 1.875rem;
+        background-color:gray;
+        color: aqua;
+        display: inline-block;
+        padding: 1rem 1.25rem;
+        align-content: center;
+          text-decoration: none;
+        
+          border-radius: 0.3125rem;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+        }
+        
+        .aside__instagram:hover {
+        background-color: aliceblue;
+        }
+        .aside__instagram>i{
+          font-size: 5rem; 
+        top: 5.75rem;
+        left: 4rem;
+        position: absolute;
+        color: #3f729b;
+          border-style: none;
+        
+        }
+        
+        .aside__facebook{
+          position: absolute;
+        
+        left: 60.5rem;
+          top: 153.375rem;
+          width: 9.5rem;
+          height:9.5rem;
+          border: 0.0625rem solid aqua;
+          box-shadow: 0.3125rem 0.3125rem 0.9375rem #B965EC , -0.3125rem -0.3125rem 0.9375rem #B965EC;
+          text-align: center;
+          text-shadow: 0.0625rem 0.0625rem 0.3125rem #B965EC  ;
+          font-size: 1.875rem;
+          background-color:gray;
+          color: aqua;
+          display: inline-block;
+            padding: 1rem 1.25rem;
+          
+            text-decoration: none;
+          
+            border-radius: 0.3125rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        
+        }
+        
+        
+        
+        .aside__facebook:hover {
+        background-color: aliceblue;
+        }
+        .aside__facebook>i{
+          font-size: 4.6875rem; 
+        top: 5.6rem;
+        left: 3.9rem;
+        position: absolute;
+        color: #3b5998;
+          border-style: none;
+        
+        }
+        .aside__twitter{
+          position: absolute;
+          left: 60.5rem;
+            top: 114.375rem;
+            width: 9.5rem;
+            height:9.5rem;
+            border: 0.0625rem solid aqua;
+            box-shadow: 0.3125rem 0.3125rem 0.9375rem #B965EC , -0.3125rem -0.3125rem 0.9375rem #B965EC;
+            text-align: center;
+            text-shadow: 0.0625rem 0.0625rem 0.3125rem #B965EC  ;
+            font-size: 1.875rem;
+            background-color:gray;
+            color: aqua;
+            display: inline-block;
+              padding: 1rem 1.25rem;
+            
+              text-decoration: none;
+            
+              border-radius: 0.3125rem;
+              cursor: pointer;
+              transition: background-color 0.3s ease;
+
+        }
+        .aside__twitter:hover{background-color: aliceblue;}
+        .aside__twitter>i{
+          font-size: 4.6875rem; 
+          top: 5.6rem;
+          left: 3.9rem;
+          position: absolute;
+          color: #00acee;
+            border-style: none;
+
+        }
+        .aside__youtube{
+          position: absolute;
+          left: 60.5rem;
+            top: 193.375rem;
+            width: 9.5rem;
+            height:9.5rem;
+            border: 0.0625rem solid aqua;
+            box-shadow: 0.3125rem 0.3125rem 0.9375rem #B965EC , -0.3125rem -0.3125rem 0.9375rem #B965EC;
+            text-align: center;
+            text-shadow: 0.0625rem 0.0625rem 0.3125rem #B965EC  ;
+            font-size: 1.875rem;
+            background-color:gray;
+            color: aqua;
+            display: inline-block;
+              padding: 1rem 1.25rem;
+            
+              text-decoration: none;
+            
+              border-radius: 0.3125rem;
+              cursor: pointer;
+              transition: background-color 0.3s ease;
+
+
+        }
+.aside__youtube:hover{
+background-color: aliceblue;
+
+}
+        .aside__youtube>i{
+
+  font-size: 4.6875rem; 
+          top: 5.6rem;
+          left: 3.6rem;
+          position: absolute;
+          color: #c4302b;
+            border-style: none;
+
+        }
+
+        .footer{background-color: #A6F0F6;
+          position: absolute;
+          width: 100%;
+       
+        
+        }
+.footer__ul{list-style: none;
+}
+       /* .footer__inicio,.footer__consejos,.footer__alimentacion,.footer__salud{text-decoration: none;
+
+       position: relative;
+    top: 200px;*/
+
+        
+        .footer__imagen-logo{
+
+          position: relative;
+left: -450px;
+width: 400px;
+height: 300px;
+          
+        }
+        .footer__contacto{position: absolute;
+          font-size: 80px;
+            top: 20px;
+            left: 500px;
+          
+        
+        }
+       
